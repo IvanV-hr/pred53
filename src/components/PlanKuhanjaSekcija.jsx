@@ -32,3 +32,5 @@ const PlanKuhanjaSekcija = ({ recept }) => {
 };
 
 export default PlanKuhanjaSekcija;
+
+//zadatak implementiraj komponentu plan kuhanja do kraja

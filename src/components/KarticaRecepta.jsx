@@ -19,7 +19,7 @@ const KarticaRecepta = ({ recept, onOdaberi }) => {
         >
           {prikazi ? "Sakrij sastojke" : "Prikazi sastojke"}
         </Button>
-        <Button onClick={() => onOdaberi(recept)}>Odberi recept</Button>
+        <Button onClick={() => onOdaberi(recept)}>Odaberi recept</Button>
       </div>
       <ol id={`sastojci-${recept.id}`} hidden={!prikazi}>
         {recept.ingredients.map((sastojak) => (
