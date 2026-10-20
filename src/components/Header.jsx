@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Button } from "./Button.jsx";
+import logo from "../assets/react.svg";
 
 export function Header({ naslov }) {
   const [otvoren, setOtvoren] = useState(false);
@@ -12,6 +13,7 @@ export function Header({ naslov }) {
       <header>
         <div className="header-wrapper">
           <a className="header-logo" href="#glavni-sadrzaj">
+            <img className="logo" src={logo}></img>
             React
           </a>
           <Button

@@ -219,3 +219,8 @@ footer {
     gap: 8px;
   }
 }
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
